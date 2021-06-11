@@ -12,8 +12,6 @@ code {
     monospace;
 }
 
-p {
-  margin-left: 15px;
-  font-family: "Arial", sans-serif;
-  font-style: 18px;
+body {
+  padding: 20px;
 }

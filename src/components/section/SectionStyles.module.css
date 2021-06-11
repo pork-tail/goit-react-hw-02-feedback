@@ -1,5 +1,21 @@
 .title {
-  margin-left: 10px;
   font-family: "Arial", sans-serif;
   font-style: 24px;
+  margin-top: 0;
+  text-align: center;
+}
+
+section {
+  width: 300px;
+  border-radius: 4px;
+  padding: 15px;
+  background-color: rgb(215, 235, 201);
+}
+
+section:not(:last-child) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgb(247, 235, 216);
 }
